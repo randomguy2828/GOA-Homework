@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    height: 1000px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.red {
+  background-color: red;
+}
+
