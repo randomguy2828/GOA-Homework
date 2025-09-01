@@ -35,9 +35,7 @@ body{
     background-color: hsl(217, 19%, 35%);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     grid-column: 3/4;
     grid-row: 1/2;
     border-radius: 10px;
@@ -48,9 +46,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     grid-column: 1/2;
     grid-row: 2/3;
     border-radius: 10px;
@@ -60,9 +56,7 @@ body{
     background-color: hsl(219, 29%, 14%);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     grid-column: 2/4;
     grid-row: 2/3;
     border-radius: 10px;
@@ -72,20 +66,193 @@ body{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     grid-column: 4/5;
     grid-row: 1/3;
     border-radius: 10px;
 }
 
+.profile1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 .img1{
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
     vertical-align: top;
 }
 
 .txt1{
     font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.txt11{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+}
+
+.txt1p1{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+}
+
+.txt1p2{
+    font-size: 12px;
+    color: hsl(0, 0%, 81%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.profile2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.img2{
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.txt2{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.txt22{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+}
+
+.txt2p1{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+}
+
+.txt2p2{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.profile3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.img3{
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.txt3{
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.txt33{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);;
+}
+
+.txt3p1{
+    font-size: 20px;
+    color: hsl(0, 0%, 7%);
+    padding-left: 10px;
+}
+
+.txt3p2{
+    font-size: 14px;
+    color: hsl(224, 10%, 45%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.profile4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.img4{
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.txt4{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.txt44{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+}
+
+.txt4p1{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+}
+
+.txt4p2{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.profile5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.img5{
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.txt5{
+    font-size: 13px;
+    color: hsl(0, 0%, 7%);
+}
+
+.txt55{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+}
+
+.txt5p1{
+    font-size: 18px;
+    color: hsl(219, 29%, 14%);
+    padding-left: 10px;
+}
+
+.txt5p2{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+    padding-left: 10px;
+    padding-top: 10px;
 }
