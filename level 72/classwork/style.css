@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.grid {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns:repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    border-color: green;
+    border-style: dashed;
+}
+
+.lilgrid{
+    background-color: red;
+}
+
+.grid1 {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns:repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.lilgrid1{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: red;
+}
