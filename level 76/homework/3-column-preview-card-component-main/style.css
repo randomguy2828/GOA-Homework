@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Danfo&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px;
+  padding: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.firstpart{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.secondpart{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.thirdpart{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pic1{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pic2{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pic3{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.head1{
+    font-size: 30px;
+    font-family: "Lexend Deca";
+    padding-left: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.head2{
+    font-size: 30px;
+    font-family: "Lexend Deca";
+    padding-left: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.head3{
+    font-size: 30px;
+    font-family: "Lexend Deca";
+    padding-left: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.text1{
+    font-size: 17px;
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.text2{
+    font-size: 17px;
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.text3{
+    font-size: 17px;
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.but1{
+    background-color: hsl(0, 0%, 95%);;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.but2{
+    background-color: hsl(0, 0%, 95%);;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.but3{
+    background-color: hsl(0, 0%, 95%);;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
