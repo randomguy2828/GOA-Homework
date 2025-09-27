@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Pushes items to the edges and center */
+    align-items: center; /* Vertically aligns items */
+    background-color: black;
+}
+
+.logo {
+    font-weight: 800;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 20px;
+    color: white;
+}
+
+.button1 {
+    padding: 10px 15px;
+    border-radius: 50px; 
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+    margin-right: 50px;
+    color: white;
+    background-color: grey;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 65px 0;
+}
+
+.maintxt1{
+    color: greenyellow;
+}
+
+.hm1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.txt1 {
+    font-size: 17px;
+    color: white;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.button2{
+    background-color: greenyellow;
+    padding: 15px 15px;
+    border-radius: 50px; 
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.imgdiv{
+    position: relative;
+}
+
+.img1{
+    width: 700px;
+    z-index: 1;
+}
+
+.img2{
+    width: 550px;
+    height: 280px;
+    z-index: 2;
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    border-radius: 30px;
+}
+
+.img3{
+    width: 125px;
+    z-index: 2;
+    position: absolute;
+    right: 470px;
+    top: 50px;
+    border-radius: 30px 0px 30px 30px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    gap: 30px; 
+}
+
+.feattxt {
+    flex: 1; 
+}
+
+.featimg {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+
+.hm2{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.txt2{
+    font-size: 17px;
+    max-width: 450px;
+    color: white;
+}
+
+.fttxt1{
+    color: greenyellow;
+}
+
+.img4{
+    height: 800px;
+}
