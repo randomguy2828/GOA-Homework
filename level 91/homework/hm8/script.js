@@ -1,5 +1,5 @@
 // შექმენით 3 ელემენტიანი სია და სიის დასაწყისში ჩაამათეთ რიცხვი.,
 
-list = ["giorgi", "erekle", "saba",]
+let list = ["giorgi", "erekle", "saba",]
 
 list.unshift(28)

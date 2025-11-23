@@ -1,5 +1,5 @@
 // შექმენით 3 ელემენტიანი სია. სიის ბოლოდან ამოშალეთ ბოლო ელემენტი.
 
-list = ["lambo", "bugati", "porche"]
+let list = ["lambo", "bugati", "porche"]
 
 list.pop()
