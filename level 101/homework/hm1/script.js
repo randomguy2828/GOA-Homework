@@ -3,7 +3,8 @@
 let film = {
     name: "interstellar",
     author: "chistoper nolan",
-    year: 2014
+    year: 2014,
+    rating: "perfect"
 }
 
 console.log(film)

@@ -2,11 +2,11 @@
 
 // ობიექტების სია
 let classmates = [
-    {name: "Tengo",age: 16 },
-    { name: "Erekle", age: 16 },
-    { name: "Soso", age: 16 },
-    { name: "Qeti", age: 17 },
-    { name: "Natali", age: 16 }
+    {name: "Tengo",age: 16},
+    {name: "Erekle", age: 16},
+    {name: "Soso", age: 16},
+    {name: "Qeti", age: 17},
+    {name: "Natali", age: 16}
 ]
 
 for(let i = 0; i < classmates.length; i++){
