@@ -6,8 +6,7 @@ let List = [42, "hello", true, "world", 3.14]
 let stList = []
 
 for(let item of List){
+    if(typeof item === "String"){
+        console.log(stList)
+    }
 }
-
-console.log(stList);
-
-// ver davasrule
