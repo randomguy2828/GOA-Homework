@@ -5,7 +5,7 @@ let myData = {
   name: "Giorgi",
   age: 17,
   city: "Tbilisi"
-};
+}
 
 let userKey = prompt()
 

@@ -7,6 +7,7 @@ let stList = []
 
 for(let item of List){
     if(typeof item === "String"){
-        console.log(stList)
+        stList.push(item)
     }
 }
+console.log(stList)

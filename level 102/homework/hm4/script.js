@@ -6,8 +6,13 @@ let serial = {
     genre: "action"
 }
 
-keys = Object.keys(serial)
-values = Object.values(serial)
+// keys = Object.keys(serial)
+// values = Object.values(serial)
 
-console.log(keys)
-console.log(values)
+// console.log(keys)
+// console.log(values)
+
+for(let key in serial){
+    console.log(serial[key])
+}
+
