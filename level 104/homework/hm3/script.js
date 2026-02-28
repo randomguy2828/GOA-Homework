@@ -8,3 +8,5 @@ let me = {
         return this.age + 1
     }
 }
+
+console.log(me.age1())
