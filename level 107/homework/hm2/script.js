@@ -7,3 +7,11 @@ let range = (start, end) => {
     }
     return count
 }
+
+let range1 = function(start, end) {
+    let count = 1
+    for(let i = start; i <= end; i++){
+        count *= i
+    }
+    return count
+}
