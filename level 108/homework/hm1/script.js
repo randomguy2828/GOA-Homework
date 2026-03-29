@@ -15,6 +15,8 @@ let countLetter = (txt) => {
         }
     }
 
-  let result = [vowelCount, Count]
+  let result = {vowelCount, Count}
   return result
 }
+
+console.log(countLetter("გიორგი"))

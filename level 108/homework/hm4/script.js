@@ -5,7 +5,7 @@ let count = (text) => {
     
     for(let char of text){
         let num = char >= '0' && char <= '9'
-        evencount += num && (parseInt(char) % 2 === 0) ? 1 : 0
+        evencount += num && (Number(char) % 2 === 0) ? 1 : 0
     }
     return { even: evencount }
 }
