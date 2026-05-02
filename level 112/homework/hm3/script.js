@@ -14,12 +14,26 @@
 let cart = {
     _items: [
         { name: "apple", price: 5, qty: 2 },
-        { name: "banana", price: 3, qty: 5 },
-        { name: "orange", price: 4, qty: 1 }
+        { name: "banana", price: 3, qty: 5 }
     ],
     
     addItem(product){
         this._items.push(product)
     },
+    
+    removeItem(index){
+        this._items.splice(index, 1)
+    },
+    
+    clear(){
+        this._items = []
+    },
+    
+    get totalPrice(){
+        let total = 0
+        for(let i = 0; i < this._items.length; i++){
+            total += this._items[i].price * this._items[i].qty
+        }
+        return total
+    }
 }
-// meti vegar gavagrdzele

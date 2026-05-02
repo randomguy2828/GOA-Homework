@@ -34,3 +34,5 @@ let user = {
         }
     }
 }
+
+console.log(user.password)

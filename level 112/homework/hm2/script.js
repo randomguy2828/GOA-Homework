@@ -34,15 +34,13 @@ let bankAccount = {
     },
     
     withdraw(amount) {
-        if(amount <= 0){
-            return "more than 0"
+        if(amount < this._balance){
+            this._balance = this._balance - amount
         } 
         else if(amount > this._balance){
             return "not enough"
         }
-        else{
-            this._balance = this._balance - amount
-            return this._balance 
-        }
     }
 }
+
+console.log(bankAccount.balance)
