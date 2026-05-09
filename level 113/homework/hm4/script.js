@@ -14,4 +14,14 @@
 // getter length()
 // აბრუნებს username-ის სიგრძეს
 
-// ???
+let profile = {
+    _username: "Giorgi",
+
+
+    set username(value){
+        let count = 0
+        if(!value.includes(" ")){
+            return true
+        }
+    }
+}
