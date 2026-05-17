@@ -3,10 +3,10 @@
 let robot = {
     model: "RX-78",
     first: function(){
-        return "ჩემი სახელია " + this.model
+        return this.model
     },
     second:()=>{
-        return "ჩემი სახელია " + this.model
+        return this.model
     }
 }
 

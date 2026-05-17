@@ -9,8 +9,8 @@ function product(id, name, price){
 }
 
 
-let apple = product(134, "sprite", "2$")
-let banana = product(135, "brusqets", "3$")
+let i = product(134, "sprite", "2$")
+let b = product(135, "brusqets", "3$")
 
-console.log(apple)  
-console.log(banana) 
+console.log(i)  
+console.log(b) 
