@@ -1,3 +1,9 @@
 // შექმენით ფუნქცია სახელად displayCar, რომელიც პარამეტრად მიიღებს ობიექტს. პარამეტრების სიაშივე მოახდინეთ დესტრუქცია ({brand, model, year})
 
-// ვერ მივხვდი ეგ როგორ ვქნა
+function displayCar({brand, model, year}){
+    console.log(brand, model, year)
+}
+
+let car = {brand: "Mercedes", model: "C-Class", year: 2022}
+
+displayCar(car)

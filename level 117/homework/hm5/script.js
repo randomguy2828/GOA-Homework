@@ -5,7 +5,7 @@
 let car = {
      _speed: 10,  
 
-     get speed(){
+     get speeds(){
         if(this._speed > 100){
             return `Super Speed:` [this._speed]
         }
