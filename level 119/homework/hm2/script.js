@@ -1,6 +1,6 @@
 // შექმენით 10 პარაგრაფი და მიანიჭეთ ერთნაირი კლასები. მიწვდით და კონსოლში გამოიტანეთ სათითაოდ მათი ტექსტები.
 
-let  txts = document.getElementsByClassName("klasia")
+let txts = document.getElementsByClassName("klasia")
 
 console.log(txts[0])
 console.log(txts[1])
