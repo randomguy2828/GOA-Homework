@@ -9,7 +9,7 @@ let box = document.getElementById("box")
 
 if(name === "giorgi"){
     box.setAttribute("class", "style1")
-    box.innerHTML = `<h1>${name}</h1>`
+    box.innerHTML = "<h1>${name}</h1>"
 }
 else{
     box.setAttribute("class", "style2")

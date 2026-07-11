@@ -6,6 +6,8 @@ let bee = true
 let mivwvdet = document.getElementById("vinaa")
 
 if(bee){
-    mivwvdet.innerHTML 
+    mivwvdet.innerHTML = "<h1>giorgi</h1>"
 }
-// ???
+else{
+    mivwvdet.innerHTML = "<h1>erekle</h1>"
+}
