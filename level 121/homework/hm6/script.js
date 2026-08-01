@@ -9,4 +9,4 @@ container.className = "classi"
 
 let btn = document.createElement("button")
 
-// ???
+btn.classList.add("active")
