@@ -18,15 +18,15 @@ function addlikes(){
     like.textContent = count
     
     if(count > 50){
-        text.textContent = "Popular Post!";
-        text.style.color = "gold";
+        text.textContent = "Popular Post!"
+        text.style.color = "gold"
     }
     else if(count > 10){
-        text.textContent = "Popular Post!";
-        text.style.color = "black";
+        text.textContent = "Popular Post!"
+        text.style.color = "black"
     } 
     else{
-        text.textContent = "";
+        text.textContent = ""
     }
 }
 

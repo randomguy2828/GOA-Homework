@@ -11,4 +11,8 @@
 
 // გამოგადგებათ toggle იც
 
-// ???
+let lightbulb = document.querySelector("p")
+
+function feriscvla(){
+    lightbulb.classList.toggle("lightbulb")
+}

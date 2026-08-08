@@ -8,11 +8,11 @@
 // გამოჩნდეს იმდენი ფიფქი რამდენი სიმბოლოცაა ზუსტად პაროლში
 
 let password = document.getElementById("password")
-
+let mypassword = "g"
 function pirveli(){
-    password.textContent = "********"
+    password.textContent = "*".repeat(mypassword.length)
 }
 
 function meore(){
-    password.textContent = "giorgi28"
+    password.textContent = mypassword
 }
