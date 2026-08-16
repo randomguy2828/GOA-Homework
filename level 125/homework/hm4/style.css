@@ -1,0 +1,20 @@
+#ball1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#ball2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#ball3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+}

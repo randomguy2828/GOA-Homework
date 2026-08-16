@@ -6,7 +6,7 @@
 // onmouseup → "Mouse Up".
 // onwheel → "Wheel Up" ან "Wheel Down" იმის მიხედვით, რომელი მიმართულებით დაატრიალეს ბორბალი.
 
-let events = document.getElementById("event")
+let events = document.getElementById("events")
 
 function move1(){
     events.textContent = "Mouse Over"
