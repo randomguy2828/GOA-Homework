@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 400px;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.input-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 300px;
+    padding: 8px;
+}
+
+#addbtn{
+    background: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+li{
+    background: white;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delbtn{
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    background: #232733;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img{
+    height: 35px;
+}
+
+
+.main{
+    width: 900px;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.watchside{
+    position: relative;
+    width: 320px;
+    display: inline-block;
+}
+
+.watchside img{
+    width: 150%;
+    
+}
+
+.infoside{
+    width: 480px;
+}
+
+.infoside h1{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.desc{
+    color: gray;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+}
+
+.colorcont{
+    display: flex;
+    gap: 10px;
+}
+
+.color1{
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: #262626;
+}
+
+.color2{
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: #c53e28;
+}
+
+.color3{
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: #555d82;
+}
+
+.color4{
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: #825460;
+}
+
+.btn1{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.btn2{
+    background: #ebebeb;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn3{
+    background: #f79c00;
+    color: black;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#timer{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
