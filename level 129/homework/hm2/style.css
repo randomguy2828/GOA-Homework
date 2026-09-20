@@ -1,0 +1,98 @@
+main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.cardsection {
+    width: 35%;
+    min-height: 100vh;
+    background-image: url('./favicon-32x32.png');
+    background-size: cover;
+    position: relative;
+}
+
+#cardform {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardform div{
+    margin-bottom: 16px;
+}
+
+#cardfront{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    color: white;
+}
+
+#cardback{
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    color: white;
+}
+
+#cardnum{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+#cardfront div{
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#cvc{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    font-size: 14px;
+}
+
+#cardform{
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#submitbtn{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}

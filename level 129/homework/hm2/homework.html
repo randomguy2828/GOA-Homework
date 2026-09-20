@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+
+    <main>
+        <div class="cardsection">
+            <div id="cardfront">
+                <img src="./bg-main-mobile.png">
+                <p id="cardnum">0000 0000 0000 0000</p>
+                <div>
+                    <span id="cardname">Jane Appleseed</span>
+                    <span id="carddate">00/00</span>
+                </div>
+            </div>
+            <div id="cardback">
+                <img src="./bg-main-desktop.png">
+                <p id="cvc">000</p>
+            </div>
+        </div>
+        
+        <form id="cardform">
+            <div>
+                <label>Cardholder Name</label>
+                <input type="text" id="nameinput" placeholder="e.g. Jane Appleseed">
+            </div>
+            
+            <div>
+                <label>Card Number</label>
+                <input type="text" id="numberinput" placeholder="e.g. 1234 5678 9123 0000">
+            </div>
+            
+            <div>
+                <div>
+                    <label>Exp. Date (MM/YY)</label>
+                    <input type="text" id="monthinput" placeholder="MM">
+                    <input type="text" id="yearinput" placeholder="YY">
+                </div>
+                <div>
+                    <label>CVC</label>
+                    <input type="text" id="cvcinput" placeholder="e.g. 123">
+                </div>
+            </div>
+            <button type="submit" id="submitbtn">Confirm</button>
+        </form>
+    </main>
+    
+    <div id="thankyou" style="display: none;">
+        <h2>Thank you!</h2>
+        <p>We've added your card details</p>
+        <button id="continuebtn">Continue</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
