@@ -98,6 +98,14 @@ h3{
     background: #825460;
 }
 
+.color5{
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: pink;
+}
+
 .btn1{
     display: flex;
     gap: 10px;
@@ -127,18 +135,22 @@ h3{
 
 #timer{
     position: absolute;
-    top: 45%;
-    left: 60%;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 #heartbeat{
-    width: 200px;
-    height: 50px;
+    width: 90px;        
+    display: none;      
+    margin: 0 auto;
 }
 
 #p{
-    display: none;
+    display: block;
+    margin: 0;
 }

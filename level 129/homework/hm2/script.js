@@ -10,37 +10,37 @@ let cardNum = document.getElementById("cardnum")
 let cardDate = document.getElementById("carddate")
 let cardCvc = document.getElementById("cvc")
 
-nameInput.addEventListener("input", () => {
-    cardName.textContent = nameInput.value || "Jane Appleseed"
-})
-
-numberInput.addEventListener("input", () => {
-    cardNum.textContent = numberInput.value || "0000 0000 0000 0000"
-})
-
-cvcInput.addEventListener("input", () => {
-    cardCvc.textContent = cvcInput.value || "000"
-});
-
-function updateDate(){
-    let mm = monthInput.value || "00"
-    let yy = yearInput.value || "00"
-    cardDate.textContent = `${mm}/${yy}`
-}
-
-monthInput.addEventListener("input", updateDate)
-yearInput.addEventListener("input", updateDate)
-
-let thankYou = document.getElementById("thankyou")
-let continueBtn = document.getElementById("countinebtn")
-
 form.addEventListener("submit", (e) => {
     e.preventDefault()
-    if(nameInput.value !== "" && numberInput.value !== ""){
-        form.style.display = "none" 
-        thankYou.style.display = "block"
+
+    if(nameInput.value === "" || numberInput.value === "" || monthInput.value === "" || yearInput.value === "" || cvcInput.value === ""){
+        alert("Can't be blank")
     }
+    else if(numberInput.value !== Number(numberInput.value) || 
+             monthInput.value !== Number(monthInput.value) || 
+             yearInput.value !== Number(yearInput.value) || 
+             cvcInput.value !== Number(cvcInput.value)){
+        alert("Wrong format, numbers only")
+    }
+    else if(numberInput.value.length !== 16){
+        alert("Card number must be exactly 16 digits")
+    }
+    else if(monthInput.value.length !== 2 || monthInput.value < 1 || monthInput.value > 12){
+        alert("Month must be 2 digits (01 - 12)")
+    }
+
+    else if(yearInput.value.length !== 2){
+        alert("Year must be 2 digits (e.g. 25)")
+    }
+
+    else if(cvcInput.value.length !== 3){
+        alert("CVC must be 3 digits")
+    }
+
     else{
-        alert("Please fill out the card details")
+        cardName.textContent = nameInput.value
+        cardNum.textContent = numberInput.value
+        cardDate.textContent = monthInput.value + "/" + yearInput.value
+        cardCvc.textContent = cvcInput.value
     }
 })

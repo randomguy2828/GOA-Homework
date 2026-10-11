@@ -36,3 +36,17 @@ fourcube.addEventListener("click", function(event){
 //         img.src = "./purple.png"
 //     }
 // })
+
+let timebtn = document.getElementById("timebtn")
+let heartbtn = document.getElementById("heartbtn")
+let heartbeat = document.getElementById("heartbeat")
+
+timebtn.addEventListener("click", function(){
+    p.style.display = "block"
+    heartbeat.style.display = "none"
+})
+
+heartbtn.addEventListener("click", function(){
+    heartbeat.style.display = "block"
+    p.style.display = "none"
+})
