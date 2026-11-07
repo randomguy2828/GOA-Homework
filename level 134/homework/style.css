@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    padding: 40px;
+}
+
+#mainlayout{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+#dessertssection h1{
+    font-size: 36px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+#productsgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.productcard{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagebox{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.imagebox img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.addbtn{
+    position: absolute;
+    bottom: -20px;
+    left: 30%;
+    background-color: white;
+    border: 1px solid red;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.category {
+    color: brown;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.title {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#cartbox {
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#cartbox h2 {
+    color: red;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#cartitems {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.emptytext {
+    color: lightcoral;
+    font-size: 14px;
+}
+
+#carttotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 14px;
+}
+
+.totalamount {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#confirmbtn {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
